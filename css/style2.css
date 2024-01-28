@@ -1,0 +1,325 @@
+
+/*-- footer starts --*/
+footer {
+	background-color:#fff;
+	background:url(../images/footer.png) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+} 
+hr{
+	border-top:1px solid #BDB8B8;
+}
+.copyright {
+    padding: 10px 0 20px;
+}
+.copyright p a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.copyright p a:hover {
+	color:#F99A9A;
+} 
+.copyright p{
+	color:#FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:15px;
+}
+@media (max-height:800px){
+	footer { position: static; }
+}
+.footer-distributed{
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 0;
+}
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+}
+/* Footer left */
+/* Footer links */
+.footer-distributed .footer-left .footer-left-header p{
+	display: block;
+	color:#FFFFFF;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: 'Varela Round', sans-serif;
+}
+.footer-distributed .footer-left .footer-links  i{
+	background-color:#565353;
+	color: #fff;
+	font-size: 14px;
+    width: 30px;
+    height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	margin: 5px 10px;
+	vertical-align: middle;
+}
+.footer-distributed .footer-left .footer-links  i:hover {
+	background-color:#025484;
+}
+.footer-distributed .footer-left .footer-links p{
+	display: inline-block;
+	color:#FFFFFF;
+	vertical-align: middle;
+	margin:0;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer-distributed .footer-left .footer-links p a{
+	color:#FFFFFF;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+/* Footer Center */
+.footer-distributed .footer-center .footer-center-header p{
+	display: block;
+	color:#FFFFFF;
+	font-size: 25px;
+	padding-bottom:20px;
+	margin-left: 16px;
+	font-weight: 500;
+	font-family: 'Varela Round', sans-serif;
+}
+.footer-distributed .footer-center i{
+	background-color:#565353;
+	color: #fff;
+	font-size: 17px;
+    width: 30px;
+    height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 32px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+i.glyphicon.glyphicon-earphone {
+    font-size: 16px;
+}
+i.glyphicon.glyphicon-envelope {
+    font-size: 15px;
+}
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color:#FFFFFF;
+	vertical-align: middle;
+	margin:0;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer-distributed .footer-center p a{
+	color:#FFFFFF;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+/* Footer Right */
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:#FFFFFF;
+	font-size: 14px;
+	font-weight: 300; 
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:#FFFFFF;
+	font-size: 27px;
+	font-weight: 500;
+	padding-bottom:30px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+span.glyphicon.glyphicon-chevron-up {
+	margin: 0 0 0 50%;
+	color:#ff8000;
+}
+@media (max-width: 880px) {
+	.footer-distributed{
+	font: bold 14px sans-serif;
+}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+	.footer-distributed .footer-center i{
+	margin-left: 0;
+}
+}
+/*-- footer ends --*/
+
+/*-- About Us --*/
+.about-us {
+	background-color:rgb(247, 247, 247);
+}
+.about-us h4{
+	text-transform:uppercase;
+	color:#656565;
+	font-size: 28px;
+    	padding: 0;	
+	font-family: 'Varela Round', sans-serif;
+	text-align:justify;
+}
+.about-us h3 {
+    padding: 30px 0;
+    color: #fff!important;
+    text-transform: uppercase;
+}
+.about-us p.p1 {
+	
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0;
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 50px;
+    font-weight: 300;
+    line-height: 25px;
+}
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width:100%;
+    margin: auto;
+}
+.about-us a.btn {
+	border-radius:0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	background-color:#C6C6C6;
+	border-color:transparent;
+    margin-top: 25px;
+}
+.about-us a.btn:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+.carousel-caption  h3 , .carousel-caption  p {
+	color: #F9EDED;
+}
+a.left.carousel-control {
+    background-color: #000;
+}
+a.right.carousel-control {
+    background-color: #000;
+}
+/*-- /About Us --*/
+/*-- slider --*/
+
+@charset "utf-8";
+
+.slider_container {
+    width: 100%;
+    margin: auto;
+    clear: both;
+}
+.flexslider {
+    position: relative;
+    zoom: 1;
+}
+.flexslider {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 30px 0;
+    background: url(images/shadow_bottom.png) no-repeat center bottom;
+}
+html[xmlns] .slides {
+    display: block;
+}
+.flexslider .slides {
+    zoom: 1;
+}
+.slides, .flex-control-nav, .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+/* Slider
+http://www.freshdesignweb.com/fashion-responsive-slider-tutorial.html
+*/
+/* Slider
+/*-----------------------------------------------------------------------------------*/
+.slider_container{ width:100%; margin:auto; clear:both; /*background:url(images/shadow_top.png) no-repeat top center; padding:30px 0 0 0;*/}
+.flex-caption{ position: absolute; right:11px; bottom:20px;}
+.caption_title_line{ width:450px; height:75px; padding:5px 15px 10px 15px;background:url(images/slider_caption_bg.png) repeat;color: #303030;}
+.flex-caption h2{ color:#303030;font-size:20px; padding:5px 0 5px 0; margin:0px;font-family: 'Ovo', serif;}
+
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {width: 100%; margin: 0; padding: 0 0 30px 0;background:url(images/shadow_bottom.png) no-repeat center bottom;}
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block; border:10px #ededed solid;}
+.flex-pauseplay span {text-transform: capitalize;}
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+.no-js .slides > li:first-child {display: block;}
+.flexslider {position: relative; zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+.flex-container {zoom: 1; position: relative;}
+
+/* Direction Nav */
+.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: absolute; right:11px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(images/next.png) no-repeat center; bottom:184px;}
+.flex-direction-nav li a.prev {background:url(images/prev.png) no-repeat center;bottom:141px;}
+.flex-direction-nav li a.next:hover {background:url(images/next_a.png) no-repeat center;}
+.flex-direction-nav li a.prev:hover {background:url(images/prev_a.png) no-repeat center;}
+.flex-direction-nav li a.disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: -30px; text-align: center;}
+.flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+
+/* Media Queries
+/*-----------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+.slider_container{ width:100%; margin:0 0 0 2%; clear:both; background:none; padding:30px 0 0 0;}
+.flexslider {width: 100%; margin: 0; padding:0 0 30px 0;background:none;}
+.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: absolute; right:-10px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(images/next.png) no-repeat center; bottom:85px;}
+.flex-direction-nav li a.prev {background:url(images/prev.png) no-repeat center;bottom:40px;}
+.flex-caption { display:none;}
+}
+
+/* CSS Document */
+
